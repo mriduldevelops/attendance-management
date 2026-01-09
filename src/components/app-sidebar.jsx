@@ -78,7 +78,7 @@ export function AppSidebar() {
                                     </a>
                                 </SidebarMenuButton>
                                 <SidebarMenuButton asChild>
-                                    <a href="#">
+                                    <a href="/dashboard/students">
                                         <Users />
                                         <span>Students</span>
                                     </a>
