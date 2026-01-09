@@ -7,7 +7,7 @@ function layout({ children }) {
     return (
         <SidebarProvider>
             <AppSidebar />
-            <main>
+            <main className='w-full'>
                 {/* <SidebarTrigger /> */}
                 <CustomTrigger/>
                 {children}

@@ -66,13 +66,13 @@ export function AppSidebar() {
                             ))} */}
                             <SidebarMenuItem>
                                 <SidebarMenuButton asChild isActive>
-                                    <a href="#">
+                                    <a href="/dashboard">
                                         <LayoutDashboard />
                                         <span>Dashboard</span>
                                     </a>
                                 </SidebarMenuButton>
                                 <SidebarMenuButton asChild>
-                                    <a href="#">
+                                    <a href="/dashboard/teachers">
                                         <ShieldUser />
                                         <span>Teachers</span>
                                     </a>
